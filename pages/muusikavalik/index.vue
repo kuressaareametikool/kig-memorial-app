@@ -1,3 +1,3 @@
 <template>
-    <h1 class="text-blue-100">Muusikavalik</h1>
+    <h1 class="text-blue-100">Muusikavaliktoresaabas</h1>
 </template>
