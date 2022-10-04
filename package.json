@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.9",
-    "postcss": "^8.4.16",
+    "postcss": "^8.4.16"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.10",
