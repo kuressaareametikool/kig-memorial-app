@@ -9,9 +9,14 @@
         <div
           class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
         >
-          <div class="mx-4 text-white">
-            <NuxtLink to="/" class="underline">Esileht</NuxtLink>
-          </div>
+          <div class="h-8 w-px bg-gray-300"></div>
+        </div>
+        <div
+          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
+        >
+          <NuxtLink to="/matusetuup" class="mx-4 text-white"
+            >Matuse viis</NuxtLink
+          >
           <div class="h-8 w-px bg-gray-300"></div>
         </div>
         <div
@@ -25,17 +30,6 @@
         >
           <div class="mx-4 text-white">Opcion</div>
           <div class="h-8 w-px bg-gray-300"></div>
-        </div>
-        <div
-          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
-        >
-          <div class="mx-4 text-white">Opcion</div>
-          <div class="h-8 w-px bg-gray-300"></div>
-        </div>
-        <div
-          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
-        >
-          <div class="mx-4 text-white">Opcion</div>
         </div>
       </div>
     </div>
