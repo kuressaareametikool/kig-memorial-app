@@ -1,15 +1,43 @@
 <template>
-    <div class="bg-white min-h-screen flex flex-col">
-       
-        <div class="p-4 flex-1 flex flex-col">
-            <slot></slot>
-        </div>
-
-        <div class="flex gap-4 justify-around py-6 bg-amber-100">
-            <NuxtLink to="/" class="underline">Esileht</NuxtLink>
-            <NuxtLink to="/Matusetuup" class="underline">Matusetuup</NuxtLink>
-            <NuxtLink to="/Tuhastamine">Tuhastamine</NuxtLink>
-        </div>
+  <div class="bg-white min-h-screen flex flex-col">
+    <div class="p-4 flex-1 flex flex-col">
+      <slot></slot>
     </div>
-</template>
 
+    <div class="h-16 w-full bg-black bg-opacity-50">
+      <div class="w-full h-full flex justify-center items-center">
+        <div
+          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
+        >
+          <div class="mx-4 text-white">
+            <NuxtLink to="/" class="underline">Esileht</NuxtLink>
+          </div>
+          <div class="h-8 w-px bg-gray-300"></div>
+        </div>
+        <div
+          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
+        >
+          <div class="mx-4 text-white">Opcion</div>
+          <div class="h-8 w-px bg-gray-300"></div>
+        </div>
+        <div
+          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
+        >
+          <div class="mx-4 text-white">Opcion</div>
+          <div class="h-8 w-px bg-gray-300"></div>
+        </div>
+        <div
+          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
+        >
+          <div class="mx-4 text-white">Opcion</div>
+          <div class="h-8 w-px bg-gray-300"></div>
+        </div>
+        <div
+          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
+        >
+          <div class="mx-4 text-white">Opcion</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,3 +1,8 @@
+<script setup lang="ts">
+definePageMeta({
+    layout: "home",
+});
+</script>
 <template>
     <div class="flex-1 flex items-center justify-center 
 
