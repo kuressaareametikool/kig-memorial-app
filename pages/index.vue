@@ -9,17 +9,17 @@ definePageMeta({
       <NuxtLink
         to="/"
         class="text-center bg-cyan-800 text-white rounded px-4 py-2"
-        >Esileht</NuxtLink
+        >Matuse viis</NuxtLink
       >
       <NuxtLink
         to="/matusetuup"
         class="text-center bg-cyan-800 text-white rounded px-4 py-2"
-        >Matusetüüp</NuxtLink
+        >Minu inimesed</NuxtLink
       >
       <NuxtLink
         to="/tuhastamine"
         class="text-center bg-cyan-800 text-white rounded px-4 py-2"
-        >Tuhastamine</NuxtLink
+        >Erisoovid</NuxtLink
       >
     </div>
   </div>
