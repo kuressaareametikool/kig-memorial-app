@@ -9,7 +9,7 @@
         <div
           class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
         >
-          <div class="h-8 w-px bg-gray-300"></div>
+          <div class="h-8 w-px bg-cyan-800"></div>
         </div>
         <div
           class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
@@ -17,10 +17,10 @@
           <NuxtLink to="/matusetuup" class="mx-4 text-white"
             >Matuse viis</NuxtLink
           >
-          <div class="h-8 w-px bg-gray-300"></div>
+          <div class="h-8 w-px bg-cyan-800"></div>
         </div>
         <div
-          class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
+          class="flex h-full items-center hover:bg-cyan-800 hover:bg-opacity-50"
         >
           <div class="mx-4 text-white">Minu inimesed</div>
           <div class="h-8 w-px bg-gray-300"></div>

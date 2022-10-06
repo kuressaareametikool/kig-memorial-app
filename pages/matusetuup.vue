@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { InformationCircleIcon } from "@heroicons/vue/24/outline";
 const tyyp = ref(true);
 
 const toggleType = (val) => {
@@ -6,7 +7,7 @@ const toggleType = (val) => {
 };
 </script>
 <template>
-  <div class="flex-1 flex justify-center">
+  <div class="flex-1 flex justify-center pt-10">
     <div class="h-10 flex items-center bg-gray-100 rounded">
       <BaseButton
         :class="{ 'border border-black bg-cyan-800 text-white': tyyp }"
@@ -22,7 +23,7 @@ const toggleType = (val) => {
       </BaseButton>
     </div>
   </div>
-  <div class="flex items-center justify-center p-12">
+  <div class="flex items-center justify-center px-5 pt-6">
     <div class="mx-auto w-full max-w-[550px]">
       <form action="https://formbold.com/s/FORM_ID" method="POST">
         <div class="mb-5"></div>
@@ -45,7 +46,11 @@ const toggleType = (val) => {
     </div>
   </div>
 
-  <div class="flex items-center justify-center p-12">
+  <button class="flex py-2 px-4 justify-end">
+    <InformationCircleIcon class="text-gray-400 h-6" />
+  </button>
+
+  <div class="flex items-center justify-center px-5 pb-10">
     <div class="mx-auto w-full max-w-[550px]">
       <form action="https://formbold.com/s/FORM_ID" method="POST">
         <div class="mb-5"></div>
