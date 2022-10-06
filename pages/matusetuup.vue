@@ -1,5 +1,12 @@
 <script setup lang="ts">
 import { InformationCircleIcon } from "@heroicons/vue/24/outline";
+
+// peidab ja näitab info div-i
+const showInfo = ref(false);
+
+const toggleInfo = () => {
+  showInfo.value = !showInfo.value;
+};
 const tyyp = ref(true);
 
 const toggleType = (val) => {
@@ -46,9 +53,17 @@ const toggleType = (val) => {
     </div>
   </div>
 
-  <button class="flex py-2 px-4 justify-end">
+  <button class="flex py-2 px-4 justify-end" @click="toggleInfo()">
     <InformationCircleIcon class="text-gray-400 h-6" />
   </button>
+
+  <!-- info div -->
+  <div
+    v-if="showInfo"
+    class="text-sm border-grey-100 border-1 px-4 py-2 shadow rounded"
+  >
+    <p>Kirjuta siia enda soov, kuhu kalmistule soovid..</p>
+  </div>
 
   <div class="flex items-center justify-center px-5 pb-10">
     <div class="mx-auto w-full max-w-[550px]">
