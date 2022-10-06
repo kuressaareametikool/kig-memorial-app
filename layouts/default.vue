@@ -1,5 +1,6 @@
 <template>
   <div class="bg-white min-h-screen flex flex-col">
+    
     <div class="p-4 flex-1 flex flex-col">
       <slot></slot>
     </div>
