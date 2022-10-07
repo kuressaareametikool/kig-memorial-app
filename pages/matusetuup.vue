@@ -39,13 +39,13 @@ const toggleType = (val) => {
             for="message"
             class="mb-3 block text-base font-medium text-[#07074D]"
           >
-            Mida teha minu tuhaga?
+            Kalmistu asukoht
           </label>
           <textarea
             rows="4"
             name="message"
             id="message"
-            placeholder="Nt: soovin tuhka merre, loodusesse, enda hoovi..."
+            placeholder="Lisa ka hauaplatsi asukoht"
             class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
           ></textarea>
         </div>
@@ -62,7 +62,9 @@ const toggleType = (val) => {
     v-if="showInfo"
     class="text-sm border-grey-100 border-1 px-4 py-2 shadow rounded"
   >
-    <p>Kirjuta siia enda soov, kuhu kalmistule soovid..</p>
+    <p>
+      Kirjuta siia kuhu soovid tuha puistada. Nt: loodusesse, õunapuu alla..
+    </p>
   </div>
 
   <div class="flex items-center justify-center px-5 pb-10">
@@ -74,13 +76,13 @@ const toggleType = (val) => {
             for="message"
             class="mb-3 block text-base font-medium text-[#07074D]"
           >
-            Platsi nimi ja asukoht
+            Mida teha tuhaga?
           </label>
           <textarea
             rows="4"
             name="message"
             id="message"
-            placeholder="Siia tuleb tekst"
+            placeholder=""
             class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
           ></textarea>
         </div>
