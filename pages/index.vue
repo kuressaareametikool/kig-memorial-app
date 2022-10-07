@@ -17,7 +17,7 @@ definePageMeta({
         >Minu inimesed</NuxtLink
       >
       <NuxtLink
-        to="/tuhastamine"
+        to="/erisoovid"
         class="text-center bg-cyan-800 text-white rounded px-4 py-2"
         >Erisoovid</NuxtLink
       >
