@@ -22,14 +22,18 @@
         <div
           class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
         >
-          <div class="mx-4 text-white">Opcion</div>
-          <div class="h-8 w-px bg-gray-300"></div>
-        </div>
+          <NuxtLink to="/minuinimesed" class="mx-4 text-white"
+            >Minu inimesed</NuxtLink
+            >
+        <div class="h-8 w-px bg-gray-300"></div>
+          </div>
         <div
           class="flex h-full items-center hover:bg-black hover:bg-opacity-50"
         >
-          <div class="mx-4 text-white">Opcion</div>
-          <div class="h-8 w-px bg-gray-300"></div>
+          <NuxtLink to="/erisoovid" class="mx-4 text-white"
+          >Erisoovid</NuxtLink
+          >
+        <div class="h-8 w-px bg-gray-300"></div>
         </div>
       </div>
     </div>

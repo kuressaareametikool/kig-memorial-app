@@ -17,9 +17,9 @@ definePageMeta({
         >Matusetüüp</NuxtLink
       >
       <NuxtLink
-        to="/tuhastamine"
+        to="/erisoovid"
         class="text-center bg-cyan-800 text-white rounded px-4 py-2"
-        >Tuhastamine</NuxtLink
+        >Erisoovid</NuxtLink
       >
     </div>
   </div>
