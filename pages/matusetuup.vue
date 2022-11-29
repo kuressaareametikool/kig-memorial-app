@@ -34,7 +34,7 @@ const toggleType = (val) => {
     <fieldset class="kig-fieldset">
       <label for="teine">Teine asi</label>
       <textarea name="teine" rows="4" 
-        class="kig-textarea"></textarea>
+        class="kig-textarea-2"></textarea>
     </fieldset>
     
     <textarea name="cemetary" rows="4" 
